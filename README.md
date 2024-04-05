@@ -18,7 +18,7 @@ python set-tif-dpi image.tiff 60 120 cm
 python set-tif-dpi "my image.tif" 300 300 quiet
 ````
 
-The code has been adapted to working with TIFF files, and was largely inspired by set-png-dpi by nopria from https://github.com/nopria/set-png-dpi/tree/main
+The code has been rewritter to work with TIFF files, and was largely inspired by set-png-dpi by nopria from https://github.com/nopria/set-png-dpi/tree/main
 
 Enjoy!
 
