@@ -5,7 +5,7 @@ Features:
 - file name is (intentionally) not checked for TIFF extension;
 - no re-encoding of image nor validation of TIFF format;
 - although complete TIFF format validation is **not** performed, file is checked for TIFF initial signature. Therefore, malformed or corrupted TIFF images may or may not generate an error;
-- TIFF image file is modified “in place”. Density metadata are **overwritten** if already present (file length does not change). They are not **added** if not present;
+- TIFF image file is modified “in place”. Density metadata are **overwritten** if already present.
 - no backup copy of original file is made.
 
 Usage examples:
